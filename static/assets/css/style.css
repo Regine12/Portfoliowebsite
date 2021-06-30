@@ -11,7 +11,7 @@
 :root{
     --first-color: #2A3B47;
     --white-color: #FAFAFF;
-    --dark-color: #2A3B47;
+    --dark-color: #BBC7DE;
     --text-color: #697477;
 }
 
@@ -123,7 +123,7 @@ img{
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--first-color);
+    background-color: var(--dark-color);
 }
 
 /*===== NAV =====*/
@@ -233,6 +233,7 @@ img{
 }
 .about__img{
     display: flex;
+    content: icon;
     justify-content: center;
     padding-top: 1rem;
     width: 120px;
